@@ -10,10 +10,40 @@
 		width: 720px;
 		height: 1280px;
 		border: 1px solid black;
+		display: flex;
+		flex-direction: column;
+	}
+	.card{
+		width: 83%;
+		height: 45%;
+		border: 1px solid black;
+		display: flex;
+		align-self: center;
+		background-color: #d7e3f3;
+
+	}
+	.top-area{
+		width: 100%;
+		height: 27.5%;
+		border: 1px solid red;
+		display: flex;
+
+	}
+	.botoom-area{
+		width: 100%;
+		height: 27.5%;
+		border: 1px solid green;
+		display: flex;
+
 	}
 </style>
 <body bgcolor="#aec5e5">
-	<div class="main-block"></div>
+	<div class="main-block">
+		<div class="top-area"></div>
+		<div class="card"></div>
+		<div class="botoom-area"></div>
+	</div>
+	
 	
 </body>
 </html>
